@@ -1,0 +1,12 @@
+canvas{
+width: 800;
+height: 800;
+border: 5px solid black;
+}
+
+body{
+
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
