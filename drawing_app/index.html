@@ -8,8 +8,22 @@
     <title>Momentum</title>
 </head>
 <body>
-    <h1></h1>
-    <canvas>  </canvas>
+    <canvas></canvas>
+    <input id= "line-width" type="range" min="1", max="10" value="5" step="0.1" />
+    <input type="color" id="color"/>
+    <div>
+    <div class="color-option" style="background-color:#40407a;" data-color="#40407a"> </div>
+    <div class="color-option" style="background-color:#34ace0;" data-color="#34ace0"> </div>
+    <div class="color-option" style="background-color:#2c2c54;" data-color="#2c2c54"> </div>
+    <div class="color-option" style="background-color:#ff5252;" data-color="#ff5252"> </div>
+    <div class="color-option" style="background-color:#40407a;" data-color="#40407a"> </div>
+    <div class="color-option" style="background-color:#ffb142;" data-color="#ffb142"> </div>
+    <div class="color-option" style="background-color:#84817a;" data-color="#84817a"> </div>
+    <div class="color-option" style="background-color:#ec08a8;" data-color="#ec08a8"> </div>
+    </div>
+    <button id="mode-btn">Fill</button>
+    <button id="destroy-btn">Destroy</button>
+    <button id="eraser-btn">Eraser</button>
       <script src="app.js"></script>
 </body>
-</html>
+</html> 
